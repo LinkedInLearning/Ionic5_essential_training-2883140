@@ -23,4 +23,7 @@ export class PhotoService {
 		},
 	]
 
+	getItemById(id: Number) {
+		return this.items.find(x => x.id === id);
+	}
 }

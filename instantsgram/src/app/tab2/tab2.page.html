@@ -25,7 +25,7 @@
 							<ion-card-title>{{item.title}}</ion-card-title>
 						</ion-card-header>
 						<div class="btn-show-details">
-							<ion-button>
+							<ion-button [routerLink]="['/details', item.id]">
 								<ion-icon name="arrow-redo-circle-outline"></ion-icon>
 								Voir
 							</ion-button>

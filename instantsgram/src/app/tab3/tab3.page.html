@@ -1,17 +1,54 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
-  </ion-toolbar>
+<ion-header>
+	<ion-toolbar>
+		<ion-buttons slot="start">
+			<ion-back-button defaultHref="/instants"></ion-back-button>
+		</ion-buttons>
+		<ion-title>Ajouter</ion-title>
+		<ion-buttons slot="primary">
+			<ion-button>
+				<ion-icon name="checkmark" slot="icon-only"></ion-icon>
+			</ion-button>
+		</ion-buttons>
+	</ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+	<ion-grid>
+		<ion-row>
+			<ion-col>
+				<ion-item>
+					<ion-label position="floating">Titre</ion-label>
+					<ion-input type="text"></ion-input>
+				</ion-item>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col>
+				<ion-item>
+					<ion-label position="floating">Localisation</ion-label>
+					<ion-input rows="3"></ion-input>
+				</ion-item>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col>
+				<ion-item>
+					<ion-label position="floating">Description</ion-label>
+					<ion-textarea rows="3"></ion-textarea>
+				</ion-item>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col>
+				<ion-img></ion-img>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+	<ion-fab vertical="bottom" horizontal="center" slot="fixed">
+		<ion-fab-button>
+			<ion-icon name="camera"></ion-icon>
+		</ion-fab-button>
+	</ion-fab>
+
 </ion-content>

@@ -6,7 +6,7 @@
     width: 100%;
 }
 h1 {
-	color: white;
+	color: var(--ion-color-primary);
 	left: 50%; 
 	position: absolute;
   	text-align: center;
@@ -17,4 +17,8 @@ h1 {
 }
 #home-icon {
 	font-size: 2em;
+}
+
+ion-toolbar {
+	--color: var(--ion-color-primary)
 }

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { PhotoService } from '../photo.service';
+import { Router } from '@angular/router';
 
 @Component({
 	selector: 'app-tab2',
@@ -8,8 +9,13 @@ import { PhotoService } from '../photo.service';
 })
 export class Tab2Page {
 	items;
-	constructor(private photoService: PhotoService) {
+	constructor(private router: Router, private photoService: PhotoService) {
 		this.items = this.photoService.items;
 	}
 
+	open() {
+		this.router.navigateByUrl("/details");
+
+		//this.router.navigateByUrl("['/details', '1']");
+	}
 }

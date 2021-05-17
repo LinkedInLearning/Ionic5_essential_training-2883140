@@ -13,6 +13,10 @@
 			<ion-row>
 				<ion-col>
 					<h1>Share your moments</h1>
+					<ion-button routerLink="/details">Lien 1</ion-button>
+					<ion-button [routerLink]="['/details', '1']">Lien 2</ion-button>
+					<ion-button (click)="open()">Lien 3</ion-button>
+
 				</ion-col>
 			</ion-row>
 

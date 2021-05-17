@@ -21,7 +21,9 @@ Pour utiliser ces fichiers d’exercice, vous avez besoin de :
 
 Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
 
-Vous devez suivre les étapes suivantes :
+Pour les chapitres 1 à 2, ouvrez le fichier index.html dans votre navigateur web
+
+Sinon, vous devez suivre les étapes suivantes :
 
 1. Dans le dossier du projet, exécutez la commande pour installer toutes les dépendances requises
 
@@ -39,4 +41,8 @@ Cela créera un dossier node_modules qui est manquant qui n'est pas dans le code
 
 Afin d'affichez l'application sur localhost: 8100 (ou selon le port affiché dans votre terminal)
 
-[lil-course-url]: https://www.linkedin.com/learning/l-essentiel-de-vue-js-3
+[0]: # (Replace these placeholder URLs with actual course URLs)
+
+[lil-course-url]: https://www.linkedin.com/learning/
+[lil-thumbnail-url]: http://
+

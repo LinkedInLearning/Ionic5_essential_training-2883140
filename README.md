@@ -21,7 +21,9 @@ Pour utiliser ces fichiers d’exercice, vous avez besoin de :
 
 Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
 
-Vous devez suivre les étapes suivantes :
+Pour les chapitres 1 à 2, ouvrez le fichier index.html dans votre navigateur web
+
+Sinon, vous devez suivre les étapes suivantes :
 
 1. Dans le dossier du projet, exécutez la commande pour installer toutes les dépendances requises
 

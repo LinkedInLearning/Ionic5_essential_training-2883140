@@ -39,4 +39,8 @@ Cela créera un dossier node_modules qui est manquant qui n'est pas dans le code
 
 Afin d'affichez l'application sur localhost: 8100 (ou selon le port affiché dans votre terminal)
 
-[lil-course-url]: https://www.linkedin.com/learning/l-essentiel-de-vue-js-3
+[0]: # (Replace these placeholder URLs with actual course URLs)
+
+[lil-course-url]: https://www.linkedin.com/learning/
+[lil-thumbnail-url]: http://
+

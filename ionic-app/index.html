@@ -12,19 +12,46 @@
 
 <body>
 	<ion-app>
-		<ion-header>
-			<ion-toolbar color="primary">
-				<ion-title>
-					InstantsGram
+		<ion-tabs>
+			<ion-tab tab="accueil">
+				<h1>Accueil</h1>
+			</ion-tab>
+
+			<ion-tab tab="instants">
+				<ion-header>
+					<ion-toolbar color="primary">
+						<ion-title>
+							InstantsGram
+							<ion-icon name="camera"></ion-icon>
+						</ion-title>
+					</ion-toolbar>
+				</ion-header>
+				<ion-content>
+					<h1>Bienvenue !</h1>
+				</ion-content>
+			</ion-tab>
+
+			<ion-tab tab="ajouter">
+				<h1>Ajouter</h1>
+			</ion-tab>
+
+			<ion-tab-bar slot="bottom">
+				<ion-tab-button tab="accueil">
 					<ion-icon name="camera"></ion-icon>
-				</ion-title>
-			</ion-toolbar>
-		</ion-header>
+					<ion-label>Accueil</ion-label>
+				</ion-tab-button>
 
-		<ion-content>
-			<h1>Bienvenue !</h1>
-		</ion-content>
+				<ion-tab-button tab="instants">
+					<ion-icon name="leaf-outline"></ion-icon>
+					<ion-label>Instants</ion-label>
+				</ion-tab-button>
 
+				<ion-tab-button tab="ajouter">
+					<ion-icon name="add-circle-outline"></ion-icon>
+					<ion-label>Ajouter</ion-label>
+				</ion-tab-button>
+			</ion-tab-bar>
+		</ion-tabs>
 	</ion-app>
 
 </body>

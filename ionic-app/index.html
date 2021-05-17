@@ -12,18 +12,48 @@
 
 <body>
 	<ion-app>
-		<ion-header>
-			<ion-toolbar color="primary">
-				<ion-title>
-					InstantsGram
-					<ion-icon name="camera"></ion-icon>
-				</ion-title>
-			</ion-toolbar>
-		</ion-header>
+		<ion-menu slot="start" content-id="main-content">
+			<ion-header>
+				<ion-toolbar>
+					<ion-title>Menu</ion-title>
+				</ion-toolbar>
+			</ion-header>
 
-		<ion-content>
-			<h1>Bienvenue !</h1>
-		</ion-content>
+			<ion-content>
+				<ion-list>
+					<ion-item>
+						<ion-icon name="home-outline" slot="start"></ion-icon>
+						<ion)label>Accueil</ion>
+					</ion-item>
+					<ion-item>
+						<ion-icon name="leaf-outline" slot="start"></ion-icon>
+						<ion)label>Instants</ion>
+					</ion-item>
+					<ion-item>
+						<ion-icon name="add-circle-outline" slot="start"></ion-icon>
+						<ion)label>Ajouter</ion>
+					</ion-item>
+				</ion-list>
+			</ion-content>
+		</ion-menu>
+
+		<div id="main-content">
+			<ion-header>
+				<ion-toolbar color="primary">
+					<ion-buttons slot="start">
+						<ion-menu-button></ion-menu-button>
+					</ion-buttons>
+					<ion-title>
+						InstantsGram
+						<ion-icon name="camera"></ion-icon>
+					</ion-title>
+				</ion-toolbar>
+			</ion-header>
+
+			<ion-content>
+				<h1>Bienvenue !</h1>
+			</ion-content>
+		</div>
 
 	</ion-app>
 

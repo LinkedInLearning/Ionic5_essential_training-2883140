@@ -6,12 +6,13 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PhotoService } from './photo.service';
 
 @NgModule({
-  declarations: [AppComponent],
-  entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
-  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
-  bootstrap: [AppComponent],
+	declarations: [AppComponent],
+	entryComponents: [],
+	imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
+	providers: [PhotoService, { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
+	bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }

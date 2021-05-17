@@ -1,13 +1,9 @@
 <div class="ion-page" id="main-content">
 	<ion-header>
 		<ion-toolbar color="primary">
-			<ion-buttons slot="start">
-				<ion-menu-button></ion-menu-button>
-			</ion-buttons>
 			<ion-title>InstantsGram</ion-title>
 		</ion-toolbar>
 	</ion-header>
-
 	<ion-content>
 		<ion-grid>
 			<ion-row>
@@ -19,9 +15,11 @@
 			<ion-row>
 				<ion-col>
 					<ion-card *ngFor="let item of items">
-						<img [src]="item.image">
+						<span *ngFor="let photo of item.image">
+							<ion-img [src]="photo.webviewPath"></ion-img>
+						</span>
 						<ion-card-header>
-							<ion-card-subtitle>Destination {{item.location}}</ion-card-subtitle>
+							<ion-card-subtitle>{{item.description}}</ion-card-subtitle>
 							<ion-card-title>{{item.title}}</ion-card-title>
 						</ion-card-header>
 						<div class="btn-show-details">

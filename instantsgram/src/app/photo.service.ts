@@ -4,7 +4,7 @@ const { Camera } = Plugins;
 
 export class PhotoService {
 
-	items = [
+	/*items = [
 		{
 			id: 1,
 			title: "Miami Beach",
@@ -26,11 +26,22 @@ export class PhotoService {
 			location: "Pyrénées, France",
 			image: "../../assets/images/barbecue.jpeg"
 		},
-	]
+	]*/
+	public items: Item[] = [];
 
 	public photos: Photo[] = [];
 
 	constructor() {
+	}
+
+
+	addItem(item: Item) {
+		this.items.push(item);
+		return this.items;
+	}
+
+	getItems() {
+		return this.items;
 	}
 
 	getItemById(id: Number) {
@@ -57,4 +68,12 @@ export class PhotoService {
 export interface Photo {
 	filepath: string;
 	webviewPath: string;
+}
+
+export interface Item {
+	id: number,
+	title: string,
+	description: string,
+	location: string,
+	image: Photo[]
 }

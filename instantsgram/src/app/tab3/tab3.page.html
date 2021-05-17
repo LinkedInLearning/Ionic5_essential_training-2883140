@@ -39,14 +39,14 @@
 			</ion-col>
 		</ion-row>
 		<ion-row>
-			<ion-col>
-				<ion-img></ion-img>
+			<ion-col *ngFor="let photo of photoService.photos; index as position">
+				<ion-img [src]="photo.webviewPath"></ion-img>
 			</ion-col>
 		</ion-row>
 	</ion-grid>
 
 	<ion-fab vertical="bottom" horizontal="center" slot="fixed">
-		<ion-fab-button>
+		<ion-fab-button (click)="addPhotoToGallery()">
 			<ion-icon name="camera"></ion-icon>
 		</ion-fab-button>
 	</ion-fab>

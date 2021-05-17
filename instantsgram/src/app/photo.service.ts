@@ -3,6 +3,7 @@ import { Plugins, CameraResultType } from '@capacitor/core';
 const { Camera } = Plugins;
 
 export class PhotoService {
+
 	items = [
 		{
 			id: 1,
@@ -27,6 +28,11 @@ export class PhotoService {
 		},
 	]
 
+	public photos: Photo[] = [];
+
+	constructor() {
+	}
+
 	getItemById(id: Number) {
 		return this.items.find(x => x.id === id);
 	}
@@ -38,8 +44,17 @@ export class PhotoService {
 			resultType: CameraResultType.Uri
 		});
 
-		var imageUrl = image.webPath;
-
+		this.photos.unshift(
+			{
+				filepath: "img-" + Date.now(),
+				webviewPath: image.webPath
+			}
+		)
 	}
 
+}
+
+export interface Photo {
+	filepath: string;
+	webviewPath: string;
 }

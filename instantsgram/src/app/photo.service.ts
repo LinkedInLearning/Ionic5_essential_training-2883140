@@ -1,3 +1,7 @@
+import { Plugins, CameraResultType } from '@capacitor/core';
+
+const { Camera } = Plugins;
+
 export class PhotoService {
 	items = [
 		{
@@ -26,4 +30,16 @@ export class PhotoService {
 	getItemById(id: Number) {
 		return this.items.find(x => x.id === id);
 	}
+
+	public async takePicture() {
+		const image = await Camera.getPhoto({
+			quality: 90,
+			allowEditing: true,
+			resultType: CameraResultType.Uri
+		});
+
+		var imageUrl = image.webPath;
+
+	}
+
 }

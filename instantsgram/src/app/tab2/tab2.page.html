@@ -13,10 +13,6 @@
 			<ion-row>
 				<ion-col>
 					<h1>Share your moments</h1>
-					<ion-button routerLink="/details">Lien 1</ion-button>
-					<ion-button [routerLink]="['/details', '1']">Lien 2</ion-button>
-					<ion-button (click)="open()">Lien 3</ion-button>
-
 				</ion-col>
 			</ion-row>
 
@@ -28,6 +24,12 @@
 							<ion-card-subtitle>Destination {{item.location}}</ion-card-subtitle>
 							<ion-card-title>{{item.title}}</ion-card-title>
 						</ion-card-header>
+						<div class="btn-show-details">
+							<ion-button>
+								<ion-icon name="arrow-redo-circle-outline"></ion-icon>
+								Voir
+							</ion-button>
+						</div>
 					</ion-card>
 				</ion-col>
 			</ion-row>

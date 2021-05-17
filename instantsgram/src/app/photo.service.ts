@@ -22,4 +22,5 @@ export class PhotoService {
 			image: "../../assets/images/barbecue.jpeg"
 		},
 	]
+
 }

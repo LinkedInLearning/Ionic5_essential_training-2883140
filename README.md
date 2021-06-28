@@ -1,6 +1,6 @@
 # L'essentiel de Ionic 5
 
-Ce dossier Repository est lié au cours l'essentiel de Ionic 5. Le cours est accessible sur [LinkedIn Learning][lil-course-url]. 
+Ce dossier Repository est lié au cours [l'essentiel de Ionic 5][lil-course-url]. Le cours est accessible sur [LinkedIn Learning][lil-course-url]. 
 
 
 ### Instructions 
@@ -43,6 +43,6 @@ Afin d'affichez l'application sur localhost: 8100 (ou selon le port affiché dan
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
+[lil-course-url]: https://www.linkedin.com/learning/l-essentiel-d-ionic-5/bienvenue-dans-l-essentiel-d-ionic-5
 [lil-thumbnail-url]: http://
 

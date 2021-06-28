@@ -42,6 +42,14 @@ Cela créera un dossier node_modules qui est manquant qui n'est pas dans le code
 
 Afin d'affichez l'application sur localhost: 8100 (ou selon le port affiché dans votre terminal)
 
+### Instructeur
+
+**Maheva Dessart** 
+
+ Retrouvez [Maheva Dessart](https://www.linkedin.com/learning/instructors/maheva-dessart) sur LinkedIn Learning.
+
+
+
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
 [lil-course-url]: https://www.linkedin.com/learning/l-essentiel-d-ionic-5/bienvenue-dans-l-essentiel-d-ionic-5

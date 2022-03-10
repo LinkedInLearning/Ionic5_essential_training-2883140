@@ -2,6 +2,7 @@
 
 Ce dossier Repository est lié au cours [l'essentiel de Ionic 5][lil-course-url]. Le cours est accessible sur [LinkedIn Learning][lil-course-url]. 
 
+![tn-url]
 
 Dans cette formation qui s'adresse aux développeurs d'applications mobiles, vous allez découvrir le framework Ionic 5. Après vous avoir présenté les différents types d'applications, l'environnement de travail et les outils, Maheva Dessart vous explique, à l'aide d'exemples concrets, comment créer des pages, des menus, aussi bien avec les composants Ionic qu'avec l'interface en ligne de commande. Vous apprendrez également à enrichir vos applications avec des thèmes et des plug-ins. Puis, cette formation se conclura sur l'exécution et le débogage avec des simulateurs iOS et Android.
 
@@ -48,6 +49,8 @@ Afin d'affichez l'application sur localhost: 8100 (ou selon le port affiché dan
 **Maheva Dessart** 
 
  Retrouvez [Maheva Dessart](https://www.linkedin.com/learning/instructors/maheva-dessart) sur LinkedIn Learning.
+ 
+ [tn-url]: https://media-exp1.licdn.com/dms/image/C4D0DAQHz-87qVF-g4g/learning-public-crop_675_1200/0/1624281082327?e=1646960400&v=beta&t=bVsUwY0m1LhAn28AMiqz7oc3a1GzfpZFRNEQb6D-HGo
 
 
 

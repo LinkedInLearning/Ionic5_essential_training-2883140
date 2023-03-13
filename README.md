@@ -48,14 +48,9 @@ Afin d'affichez l'application sur localhost: 8100 (ou selon le port affiché dan
 
 **Maheva Dessart** 
 
- Retrouvez [Maheva Dessart](https://www.linkedin.com/learning/instructors/maheva-dessart) sur LinkedIn Learning.
+Retrouvez [Maheva Dessart](https://www.linkedin.com/learning/instructors/maheva-dessart) sur LinkedIn Learning.
  
- [tn-url]: https://media-exp1.licdn.com/dms/image/C4D0DAQHz-87qVF-g4g/learning-public-crop_675_1200/0/1624281082327?e=1646960400&v=beta&t=bVsUwY0m1LhAn28AMiqz7oc3a1GzfpZFRNEQb6D-HGo
-
-
-
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
 [lil-course-url]: https://www.linkedin.com/learning/l-essentiel-d-ionic-5/bienvenue-dans-l-essentiel-d-ionic-5
-[lil-thumbnail-url]: https://media-exp1.licdn.com/dms/image/C4D0DAQHz-87qVF-g4g/learning-public-crop_675_1200/0/1624281082327?e=1625072400&v=beta&t=L_jfnBfF2P4eub3X7ToKRsazuu3iRj1dCp-08TUCtLg
-
+[tn-url]: https://cdn.lynda.com/course/2883140/2883140-1624281057390-16x9.jpg

@@ -6,6 +6,8 @@ Ce dossier Repository est lié au cours [l'essentiel de Ionic 5][lil-course-url]
 
 Dans cette formation qui s'adresse aux développeurs d'applications mobiles, vous allez découvrir le framework Ionic 5. Après vous avoir présenté les différents types d'applications, l'environnement de travail et les outils, Maheva Dessart vous explique, à l'aide d'exemples concrets, comment créer des pages, des menus, aussi bien avec les composants Ionic qu'avec l'interface en ligne de commande. Vous apprendrez également à enrichir vos applications avec des thèmes et des plug-ins. Puis, cette formation se conclura sur l'exécution et le débogage avec des simulateurs iOS et Android.
 
+La meilleure façon d'apprendre un langage est de l'utiliser dans la pratique. C'est pourquoi ce cours est intégré à GitHub Codespaces, un environnement de développement instantané « dans le nuage » qui offre toutes les fonctionnalités de votre IDE préféré sans nécessiter de configuration sur une machine locale. Avec Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment, tout en utilisant un outil que vous êtes susceptible de rencontrer sur votre lieu de travail. 
+
 ### Instructions 
 
 Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter /tree/BRANCH_NAME à l’URL afin d’accéder à la branche qui vous intéresse. 
